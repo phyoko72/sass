@@ -1,0 +1,28 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$light-color: #f4f4f4;
+// $primary-color: #0e6cff;
+$primary-color: navy;
+$secondary-color: #ff8700;
+$nav-height: 4.5rem;
+
+@function set-text-color($color) {
+    @if (lightness($color) > 70) {
+        @return #333;
+    } @else {
+        @return #fff;
+    }
+}
+
+@function set-content-height($height) {
+    @return calc(100vh - $height);
+}
+
+@mixin set-text-title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+@mixin set-background-color($color) {
+    background-color: $color;
+    color: set-text-color($primary-color);
+}

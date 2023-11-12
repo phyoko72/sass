@@ -1,0 +1,37 @@
+.about-content {
+    padding-top: $nav-height;
+
+    &-title {
+        @include set-text-title();
+    }
+    &-group {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+    &-item {
+        border: 1px solid #000;
+        border-radius: 5px;
+        height: 250px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        overflow: auto;
+        h1,
+        p {
+            text-align: center;
+        }
+    }
+    &-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div {
+            background: teal;
+        }
+        img {
+            width: 50%;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@media (max-width: 700px) {
+    .showcase-content,
+    .about-content-group,
+    .about-content-info,
+    .contact-group {
+        flex-flow: column;
+        height: auto;
+        img {
+            width: auto;
+        }
+    }
+    .nav-bar:not(.sm) {
+        display: none;
+    }
+    .nav-bar {
+        li {
+            padding: 10px 15px !important;
+        }
+    }
+    .main-title {
+        font-size: 30px !important;
+    }
+    .toggle {
+        display: inline-block !important;
+    }
+}
