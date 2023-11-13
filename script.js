@@ -11,7 +11,6 @@ btn.addEventListener("click", () => {
 })
 
 links.forEach((link) => {
-    console.count("looping")
     link.addEventListener("click", () => {
         if (nav.classList.contains("sm")) {
             nav.classList.replace("sm", "lg")
