@@ -1,8 +1,5 @@
 @import "config";
-@import "utilities";
-@import "button";
-@import "about";
-@import "contact";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -87,7 +84,6 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: teal;
 
         img {
             width: 50%;
@@ -104,4 +100,17 @@ a {
     }
 }
 
+footer {
+    height: 60px;
+    background: black;
+    color: rgba(245, 245, 245, 0.819);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "utilities";
+@import "button";
+@import "about";
+@import "contact";
 @import "_mobile";

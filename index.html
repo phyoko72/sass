@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Sass</title>
+        <link rel="shortcut icon" href="./img/sass-1.svg" type="image/svg" />
         <link rel="stylesheet" href="./css/style.css" />
     </head>
     <body>
@@ -54,31 +55,55 @@
                     <h1 class="about-content-title">ABOUT US</h1>
                     <div class="about-content-group mb-3">
                         <div class="about-content-item">
-                            <h1>Creative Design</h1>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Quam dignissimos nihil
-                                perspiciatis ab necessitatibus!
-                            </p>
+                            <img
+                                src="./img/light-bulb-svgrepo-com.svg"
+                                alt="creative"
+                                width="60"
+                                height="60"
+                            />
+                            <div>
+                                <h1>Creative Design</h1>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quam dignissimos nihil
+                                    perspiciatis ab necessitatibus!
+                                </p>
+                            </div>
                         </div>
                         <div class="about-content-item">
-                            <h1>Strategy Solutions</h1>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Quam dignissimos nihil
-                                perspiciatis ab necessitatibus!
-                            </p>
+                            <img
+                                src="./img/projector-screen-thin-svgrepo-com.svg"
+                                alt="solution"
+                                width="60"
+                                height="60"
+                            />
+                            <div>
+                                <h1>Strategy Solutions</h1>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quam dignissimos nihil
+                                    perspiciatis ab necessitatibus!
+                                </p>
+                            </div>
                         </div>
                         <div class="about-content-item">
-                            <h1>Dynamic Growth</h1>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Quam dignissimos nihil
-                                perspiciatis ab necessitatibus!
-                            </p>
+                            <img
+                                src="./img/nature-conservation-svgrepo-com.svg"
+                                alt="growth"
+                                width="60"
+                                height="60"
+                            />
+                            <div>
+                                <h1>Dynamic Growth</h1>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Quam dignissimos nihil
+                                    perspiciatis ab necessitatibus!
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="about-content-info my-3">
+                    <div class="about-content-info mt-3">
                         <div>
                             <h1>Performancect Solution For Small Businesses</h1>
                             <p>
@@ -98,11 +123,11 @@
             </section>
 
             <section class="contact" id="contact">
-                <div class="container">
+                <div class="container contact-container">
                     <h1 class="contact-title">GET IN TOUCH</h1>
-                    <div class="contact-group mb-3">
+                    <div class="contact-group">
                         <div class="contact-item">
-                            <form action="#">
+                            <form>
                                 <input
                                     type="text"
                                     name="name"
@@ -125,7 +150,7 @@
                                     name="message"
                                     id="message"
                                     cols="30"
-                                    rows="10"
+                                    rows="6"
                                     placeholder="Message"
                                 ></textarea
                                 ><br />
@@ -136,22 +161,50 @@
                         </div>
 
                         <div class="contact-item">
-                            <div>
-                                <span>Call:</span>
-                                <span>012-345-6789</span>
+                            <div class="contact-item-data">
+                                <img
+                                    src="./img/phone-call-svgrepo-com.svg"
+                                    alt="phone"
+                                    width="25"
+                                    height="25"
+                                />
+                                <div>
+                                    <span>Call:</span><br />
+                                    <span>012-345-6789</span>
+                                </div>
                             </div>
-                            <div>
-                                <span>Email:</span>
-                                <span>youremailid@gmail.com</span>
+                            <div class="contact-item-data">
+                                <img
+                                    src="./img/email-1-svgrepo-com.svg"
+                                    alt="email"
+                                    width="25"
+                                    height="25"
+                                />
+                                <div>
+                                    <span>Email:</span><br />
+                                    <span>youremailid@gmail.com</span>
+                                </div>
                             </div>
-                            <div>
-                                <span>Location:</span>
-                                <span>3179 Raccoon Run Seattle, WA 98109</span>
+                            <div class="contact-item-data">
+                                <img
+                                    src="./img/address-home-house-svgrepo-com.svg"
+                                    alt="address"
+                                    width="25"
+                                    height="25"
+                                />
+                                <div>
+                                    <span>Location:</span><br />
+                                    <span
+                                        >3179 Raccoon Run Seattle, WA
+                                        98109</span
+                                    >
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <footer>2023 &copy; All Rights Reserved.</footer>
         </main>
 
         <script src="./script.js"></script>

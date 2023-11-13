@@ -1,8 +1,9 @@
 $font-stack: Arial, Helvetica, sans-serif;
-$light-color: #f4f4f4;
+$light-color: #f8f9fa;
 // $primary-color: #0e6cff;
 $primary-color: navy;
 $secondary-color: #ff8700;
+
 $nav-height: 4.5rem;
 
 @function set-text-color($color) {
@@ -20,6 +21,7 @@ $nav-height: 4.5rem;
 @mixin set-text-title {
     text-align: center;
     text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 @mixin set-background-color($color) {

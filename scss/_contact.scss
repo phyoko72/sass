@@ -1,18 +1,26 @@
 .contact {
     padding-top: $nav-height;
+    &-container {
+        background: rgba(245, 245, 245, 0.93);
+    }
     &-group {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: navajowhite;
+        justify-content: space-between;
+        align-items: start;
         gap: 10px;
         padding: 10px;
+        margin-bottom: 50px;
     }
     &-title {
         @include set-text-title();
     }
     &-item {
         width: 100%;
-        // border: 1px solid #000;
+
+        &-data {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
     }
 }
